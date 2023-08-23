@@ -1,0 +1,134 @@
+/* body {
+    background-color: rgb(110, 215, 250);
+  }
+    
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid rgba(55, 255, 0, 0.573);
+  }
+
+  h2 {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  header {
+    background-image: url("image.jpg");
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    height: 100%;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  } */
+
+  /* Reset default margin and padding for all elements */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Set background color for the body */
+body {
+    background-image: url("backgound.png");
+    background-color: #9d9d9d;
+    text-align: start;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #0080ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content */
+hr {
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the list of languages */
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Style the opinions form */
+form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex: 1;
+}
+
+input[type="button"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 120%;
+    position: fixed;
+    bottom: 0px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
